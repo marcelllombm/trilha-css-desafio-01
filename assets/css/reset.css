@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+
+:root {
+  --color-blue: rgba(51, 168, 219, 1);
+  --color-while: rgba(255, 255, 255, 1);
+  --color-gray: rgba(0, 0, 0, 0.4);
+  --color-black: rgb(0, 0, 0);
+}

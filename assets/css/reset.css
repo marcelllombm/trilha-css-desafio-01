@@ -15,4 +15,5 @@
   --color-while: rgba(255, 255, 255, 1);
   --color-gray: rgba(0, 0, 0, 0.4);
   --color-black: rgb(0, 0, 0);
+  --gradient-light: linear-gradient(#33a8db, #1472b7);
 }

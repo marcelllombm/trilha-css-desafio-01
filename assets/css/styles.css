@@ -1,1 +1,20 @@
 @import url("reset.css");
+
+.banner {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #000000 10%, #0e2428 50%, #000000 90%);
+}
+
+.banner-content {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px 0;
+}
+
+.logo {
+  width: 248px;
+  height: 214px;
+  margin: 0 auto;
+}

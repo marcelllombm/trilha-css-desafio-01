@@ -3,7 +3,13 @@
 .banner {
   width: 100%;
   text-align: center;
-  background: linear-gradient(to bottom, #000000 10%, #0e2428 50%, #000000 90%);
+  background: linear-gradient(
+    to bottom,
+    #000000 10%,
+    #0e2428 50%,
+    #0e2428 80%,
+    #000000 98%
+  );
   min-height: 600px;
 }
 
@@ -45,9 +51,70 @@
 }
 
 .banner-content p {
-  margin-top: 16px;
-  font-size: 1.25rem;
+  margin: 16px auto;
+  font-size: 1.1rem;
   color: var(--color-white);
   font-weight: 300;
   line-height: 1.5;
+  text-align: center;
+  max-width: 500px;
+}
+
+.banner-content button {
+  color: var(--color-blue);
+  width: 326px;
+  height: 57px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  border: 2px solid var(--color-blue);
+}
+
+.banner-content button:hover {
+  background: var(--gradient-light);
+  color: var(--color-white);
+  border: none;
+}
+
+.course-content {
+  border-top: 1px solid var(--color-blue);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.course-content h2 {
+  text-transform: uppercase;
+  color: var(--color-blue);
+  margin-top: 76px;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.course-content p {
+  max-width: 792px;
+  margin-top: 24px;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}
+
+.modules-list .module {
+  margin-top: 24px;
+  background-color: var(--color-gray);
+  padding: 16px;
+  border-radius: 40px;
+  border: 1px solid var(--color-blue);
+  text-align: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.modules-list .module:nth-last-child(1) {
+  margin-bottom: 219px;
 }

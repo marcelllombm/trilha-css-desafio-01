@@ -13,7 +13,7 @@
 :root {
   --color-blue: rgba(51, 168, 219, 1);
   --color-white: rgba(255, 255, 255, 1);
-  --color-gray: rgba(0, 0, 0, 0.4);
+  --color-gray: rgba(37, 37, 37, 1);
   --color-black: rgb(0, 0, 0);
   --gradient-light: linear-gradient(#33a8db, #1472b7);
 }

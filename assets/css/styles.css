@@ -123,7 +123,7 @@
 }
 
 .transform-world {
-  height: 341px;
+  height: 560px;
   background-image: url(../images/woman-code.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,11 +138,11 @@
 .transform-world p {
   font-weight: 900;
   text-transform: lowercase;
-  max-width: 250px;
+  width: 250px;
   font-size: 2.5rem;
   text-shadow: 3px 2px var(--color-blue);
-  padding-left: 50px;
-  padding-top: 25px;
+  margin-left: 10%;
+  padding-top: 135px;
 }
 
 .professional-challenges {
@@ -195,4 +195,10 @@ footer a:hover {
   color: var(--color-white);
   padding: 5px;
   border-radius: 5px;
+}
+
+@media (min-width: 2400px) {
+  .transform-world p {
+    margin-left: 20%;
+  }
 }
